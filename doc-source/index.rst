@@ -5,6 +5,7 @@ pyms-agilent
 .. start short_desc
 
 .. documentation-summary::
+	:meta:
 
 .. end short_desc
 
@@ -57,7 +58,8 @@ pyms-agilent
 		:workflow: mypy
 		:alt: mypy status
 
-	.. |requires| requires-io-shield::
+	.. |requires| image:: https://dependency-dash.herokuapp.com/github/PyMassSpec/pyms-agilent/badge.svg
+		:target: https://dependency-dash.herokuapp.com/github/PyMassSpec/pyms-agilent/
 		:alt: Requirements Status
 
 	.. |coveralls| coveralls-shield::
@@ -144,12 +146,18 @@ Installation
 	contributing
 	Source
 
+.. sidebar-links::
+	:caption: Links
+	:github:
+	:pypi: pyms-agilent
+
+
 .. start links
 
 .. only:: html
 
 	View the :ref:`Function Index <genindex>` or browse the `Source Code <_modules/index.html>`__.
 
-	`Browse the GitHub Repository <https://github.com/PyMassSpec/pyms-agilent>`__
+	:github:repo:`Browse the GitHub Repository <PyMassSpec/pyms-agilent>`
 
 .. end links
